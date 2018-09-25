@@ -15,6 +15,9 @@ public class Program {
 		list.add("Ana");
 		list.add(2, "Marco");
 		
+		// Tamanho da lista
+		System.out.println(list.size());
+		
 		for (String x : list) {
 			System.out.println(x);
 		}
