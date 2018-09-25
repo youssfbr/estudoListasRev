@@ -30,8 +30,8 @@ public class Program {
 		}
 		
 		System.out.println("-------------------------------------------");
-		// Encontrando o primeiro elemento que começa que começa com a letra A.
-		String name = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
+		// Encontrando o primeiro elemento que começa que começa com a letra J.
+		String name = list.stream().filter(x -> x.charAt(0) == 'J').findFirst().orElse(null);
 		System.out.println(name);
 	}
 }
