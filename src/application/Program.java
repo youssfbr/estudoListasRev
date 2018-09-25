@@ -34,6 +34,10 @@ public class Program {
 		for (String x : list) {
 			System.out.println(x);
 		}	
-			
+		
+		System.out.println("-----------------------------------------------------------");
+		System.out.println("Encontrando a posição de um elemento.");
+		System.out.println("Index of Bob: " + list.indexOf("Bob")); // Bob está na posição 1.
+		System.out.println("Index of Marco: " + list.indexOf("Marco")); // -1 Significa que não existe o elemento na lista.		
 	}
 }
