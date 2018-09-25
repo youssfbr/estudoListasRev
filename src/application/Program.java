@@ -15,8 +15,8 @@ public class Program {
 		list.add("Ana");
 		list.add(2, "Marco");
 				
-		// Removendo elemento da lista
-		list.remove("Ana");
+		// Removendo elemento da lista pela posição
+		list.remove(1);
 		
 		System.out.println(list.size());		
 		
