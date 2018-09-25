@@ -14,9 +14,11 @@ public class Program {
 		list.add("Bob");
 		list.add("Ana");
 		list.add(2, "Marco");
+				
+		// Removendo elemento da lista
+		list.remove("Ana");
 		
-		// Tamanho da lista
-		System.out.println(list.size());
+		System.out.println(list.size());		
 		
 		for (String x : list) {
 			System.out.println(x);
