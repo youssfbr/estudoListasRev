@@ -13,6 +13,7 @@ public class Program {
 		list.add("Alex");
 		list.add("Bob");
 		list.add("Ana");
+		list.add(2, "Marco");
 		
 		for (String x : list) {
 			System.out.println(x);
